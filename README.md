@@ -61,3 +61,21 @@ Common problem patterns:
 - Valid parentheses
 - Remove adjacent duplicates
 - Decode nested strings
+
+## Pattern Recognition Framework
+When you see a new problem, ask these questions:
+
+1. Does it involve comparing elements from different positions?
+Yes, from opposite ends → Two Pointers
+
+Yes, within a contiguous block → Sliding Window
+
+2. Does it involve counting or frequency?
+Yes → Hash Map for character counting
+
+3. Does it involve nested or hierarchical structure?
+Yes → Stack
+
+4. Does it involve building new strings from patterns?
+Yes → String Building with iteration
+
