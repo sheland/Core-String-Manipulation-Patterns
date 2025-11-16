@@ -14,12 +14,12 @@ Common problem patterns:
 - Visual pattern:
 ```
 "hello" → pointers at 'h' and 'o', move toward center
-  ↑   ↑
-  l   r
+ ↑   ↑
+ l   r
 ```
 
-**2. Sliding Window**
-When to recognize: 
+### 2. Sliding Window
+***When to recognize:*** 
 You need to find a substring/subarray that meets certain conditions, often involving "longest" or "shortest" with constraints.
 
 - Common problem patterns:
@@ -28,4 +28,36 @@ You need to find a substring/subarray that meets certain conditions, often invol
 - Permutation in string
 - Maximum average subarray
 - Visual pattern:
+```
+"abcabcbb" → window expands and contracts based on character repeats
+[abc]abcbb → a[bca]bcbb → etc.
+```
+### 3. Character Counting (Hash Maps)
+***When to recognize:***  
+You need to track frequency of characters, find anagrams, or check if strings can be rearranged.
 
+Common problem patterns:
+- Valid anagrams
+- Group anagrams
+- First unique character in string
+- Palindrome permutation
+- ***Example thought process:***
+-- "If I need to know if two strings have the same characters in different orders, I should count character frequencies."
+
+### 4. String Building
+***When to recognize:***  
+You need to construct new strings by processing existing ones, often with transformations.
+
+Common problem patterns:
+- String compression ("aabcccccaaa" → "a2b1c5a3")
+- Decode strings ("3[a]2[bc]" → "aaabcbc")
+- Zigzag conversion
+
+### 5. Stack-Based Solutions
+***When to recognize:*** 
+You need to track nested structures, validate sequences, or remove adjacent duplicates.
+
+Common problem patterns:
+- Valid parentheses
+- Remove adjacent duplicates
+- Decode nested strings
