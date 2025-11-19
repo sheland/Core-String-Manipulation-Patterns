@@ -70,11 +70,28 @@ When you see a new problem, ask these questions:
  - Yes, within a contiguous block → Sliding Window
 
 2. Does it involve counting or frequency?
-Yes → Hash Map for character counting
+ - Yes → Hash Map for character counting
 
 3. Does it involve nested or hierarchical structure?
-Yes → Stack
+ - Yes → Stack
 
 4. Does it involve building new strings from patterns?
-Yes → String Building with iteration
+ - Yes → String Building with iteration
+
+## Testing your Practice Recognizing Patterns
+See if you can identify the pattern before reading the solution:
+
+Problem 1: "Given a string, find the length of the longest substring without repeating characters."
+
+Your thought process: "I need to find a contiguous block that meets a condition... this sounds like a Sliding Window problem."
+
+Problem 2: "Given two strings s and t, return true if t is an anagram of s."
+
+Your thought process: "Anagrams have the same characters in different orders... I should count character frequencies with a hash map."
+
+Problem 3: "Given a string containing just parentheses, determine if the input string is valid."
+
+Your thought process: "Parentheses need to be properly nested and closed... this is a classic Stack problem."
+
+
 
