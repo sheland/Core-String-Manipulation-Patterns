@@ -9,7 +9,7 @@ The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Sol
  - You're performing simple transformations or validations
  - No need to compare elements from different positions simultaneously
 
- Common problem patterns:
+ ***Common problem patterns:***
  - Find the maximum/minimum character in a string
  - Count specific characters or patterns
  - Implement basic string transformations
@@ -20,10 +20,10 @@ The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Sol
 
 ### b. Two Pointers
 ***When to recognize:*** 
-You need to compare, swap, or check elements from opposite ends or different positions in the string.
-Validating string symmetry or balance
+- You need to compare, swap, or check elements from opposite ends or different positions in the string.
+- Validating string symmetry or balance
 
-Common problem patterns:
+***Common problem patterns:***
 - Reverse a string  
 - Check if a string is a palindrome
 - Valid parentheses (can use two pointers for some variations)
@@ -36,12 +36,12 @@ Common problem patterns:
 
 ### c. Multiple Pointers (K-Pointers)
 ***When to recognize:*** 
-You need to track multiple positions in a string simultaneously
-Problem involves comparing/processing characters from 3+ different string indices
-You're dealing with multiple conditions or boundaries within one string
-The solution requires partitioning a string into sections
+- You need to track multiple positions in a string simultaneously
+- Problem involves comparing/processing characters from 3+ different string indices
+- You're dealing with multiple conditions or boundaries within one string
+- The solution requires partitioning a string into sections
 
-Common problem patterns:
+***Common problem patterns:***
 1. String Partitioning Problems
 - Partition Labels - "Split string into as many parts as possible so each letter appears in at most one part"
 - Palindrome Partitioning - "Find all possible ways to partition a string into palindromic substrings"
@@ -58,9 +58,9 @@ Common problem patterns:
 
 ### 2. Sliding Window
 ***When to recognize:*** 
-You need to find a substring/subarray that meets certain conditions, often involving "longest" or "shortest" with constraints.
+- You need to find a substring/subarray that meets certain conditions, often involving "longest" or "shortest" with constraints.
 
-- Common problem patterns:
+***Common problem patterns:***
 - Longest substring without repeating characters
 - Minimum window substring
 - Permutation in string
@@ -74,7 +74,7 @@ You need to find a substring/subarray that meets certain conditions, often invol
 ***When to recognize:***  
 You need to track frequency of characters, find anagrams, or check if strings can be rearranged.
 
-Common problem patterns:
+***Common problem patterns:***
 - Valid anagrams
 - Group anagrams
 - First unique character in string
@@ -86,7 +86,7 @@ Common problem patterns:
 ***When to recognize:***  
 You need to construct new strings by processing existing ones, often with transformations.
 
-Common problem patterns:
+***Common problem patterns:***
 - String compression ("aabcccccaaa" → "a2b1c5a3")
 - Decode strings ("3[a]2[bc]" → "aaabcbc")
 - Zigzag conversion
@@ -95,7 +95,7 @@ Common problem patterns:
 ***When to recognize:*** 
 You need to track nested structures, validate sequences, or remove adjacent duplicates.
 
-Common problem patterns:
+***Common problem patterns:***
 - Valid parentheses
 - Remove adjacent duplicates
 - Decode nested strings
