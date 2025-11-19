@@ -66,9 +66,8 @@ Common problem patterns:
 When you see a new problem, ask these questions:
 
 1. Does it involve comparing elements from different positions?
-Yes, from opposite ends → Two Pointers
-
-Yes, within a contiguous block → Sliding Window
+ - Yes, from opposite ends → Two Pointers
+ - Yes, within a contiguous block → Sliding Window
 
 2. Does it involve counting or frequency?
 Yes → Hash Map for character counting
