@@ -116,6 +116,9 @@ When you see a new problem, ask these questions:
 4. Does it involve building new strings from patterns?
  - Yes → String Building with iteration
 
+5. Am I processing each character in order?
+  - Yes → Single Pointer
+
 ## Testing your Practice Recognizing Patterns
 See if you can identify the pattern before reading the solution:
 
