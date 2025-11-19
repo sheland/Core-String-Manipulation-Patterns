@@ -1,22 +1,60 @@
 # Core-String-Manipulation-Patterns
 The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Solving
 
-### 1. Two Pointers
+### 1. Pointer-Based
+ ## a. Single Pointer
+ ***When to recognize:*** 
+ - You need to iterate through a string sequentially
+ - The problem requires tracking one position for reading/writing
+ - You're performing simple transformations or validations
+ - No need to compare elements from different positions simultaneously
+
+ Common problem patterns:
+ Find the maximum/minimum character in a string
+ Count specific characters or patterns
+ Implement basic string transformations
+ Validate string format (email, phone number)
+ Convert string case (upper/lower/title case)
+ Remove specific characters from string
+ String compression (run-length encoding)
+
+### b. Two Pointers
 ***When to recognize:*** 
 You need to compare, swap, or check elements from opposite ends or different positions in the string.
+Validating string symmetry or balance
 
 Common problem patterns:
-- Reverse a string/array  
+- Reverse a string  
 - Check if a string is a palindrome
-- Two-sum problems in sorted arrays
-- Removing duplicates from sorted array
-- Container with most water
+- Valid parentheses (can use two pointers for some variations)
 - Visual pattern:
 ```
 "hello" → pointers at 'h' and 'o', move toward center
  ↑   ↑
  l   r
 ```
+
+### c. Multiple Pointers (K-Pointers)
+***When to recognize:*** 
+You need to track multiple positions in a string simultaneously
+Problem involves comparing/processing characters from 3+ different string indices
+You're dealing with multiple conditions or boundaries within one string
+The solution requires partitioning a string into sections
+
+Common problem patterns:
+1. String Partitioning Problems
+- Partition Labels - "Split string into as many parts as possible so each letter appears in at most one part"
+- Palindrome Partitioning - "Find all possible ways to partition a string into palindromic substrings"
+
+2. Multiple Boundary Tracking
+- Longest Happy Prefix - "Find the longest prefix which is also a suffix"
+- Multiple String Segmentation - "Break string into segments based on multiple conditions"
+
+3. Complex Palindrome Problems
+- Valid Palindrome III - "Can the string become a palindrome by removing at most K characters?" (may need multiple pointers)
+- Longest Palindromic Substring (expanding from multiple centers)
+
+4. String Compression with Multiple Positions
 
 ### 2. Sliding Window
 ***When to recognize:*** 
