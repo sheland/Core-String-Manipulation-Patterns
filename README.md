@@ -1,8 +1,8 @@
 # Core-String-Manipulation-Patterns
 The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Solving
 
-### 1. Pointer-Based
- ## a. Single Pointer
+## 1. Pointer-Based
+ ### a. Single Pointer
  ***When to recognize:*** 
  - You need to iterate through a string sequentially
  - The problem requires tracking one position for reading/writing
@@ -10,13 +10,13 @@ The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Sol
  - No need to compare elements from different positions simultaneously
 
  Common problem patterns:
- Find the maximum/minimum character in a string
- Count specific characters or patterns
- Implement basic string transformations
- Validate string format (email, phone number)
- Convert string case (upper/lower/title case)
- Remove specific characters from string
- String compression (run-length encoding)
+ - Find the maximum/minimum character in a string
+ - Count specific characters or patterns
+ - Implement basic string transformations
+ - Validate string format (email, phone number)
+ - Convert string case (upper/lower/title case)
+ - Remove specific characters from string
+ - String compression (run-length encoding)
 
 ### b. Two Pointers
 ***When to recognize:*** 
