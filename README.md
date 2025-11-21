@@ -9,10 +9,10 @@ The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Sol
  - No need to compare characters from different positions 
 
  ***Common problem patterns:***
- Character counting - "Count how many times a specific character appears"
- Running totals - "Calculate sum of digits in a string"
- Simple validation - "Check if all characters meet a condition"
- Basic transformations - "Convert case, remove specific characters"
+ - Character counting - "Count how many times a specific character appears"
+ - Running totals - "Calculate sum of digits in a string"
+ - Simple validation - "Check if all characters meet a condition"
+ - Basic transformations - "Convert case, remove specific characters"
  * can be solved by simple for loop and minimal variables
 
 ### b. Two Pointers
