@@ -6,14 +6,14 @@ The String Manipulation Playbook: Recognizing Patterns for Efficient Problem Sol
  ***When to recognize:*** 
  - You need to process each character exactly once in sequence
  - The solution depends only on the current character or simple running totals
- - No need to compare characters from different positions 
+ - No need to compare characters from different positions
+ - Can be solved by simple for loop and minimal variables
 
  ***Common problem patterns:***
  - Character counting - "Count how many times a specific character appears"
  - Running totals - "Calculate sum of digits in a string"
  - Simple validation - "Check if all characters meet a condition"
  - Basic transformations - "Convert case, remove specific characters"
- * can be solved by simple for loop and minimal variables
 
 ### b. Two Pointers
 ***When to recognize:*** 
